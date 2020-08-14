@@ -22,6 +22,7 @@ const UploadForm = () => {
   return (
     <form>
       <input
+        className='input'
         type='file'
         onChange={changeHandler}
       />
